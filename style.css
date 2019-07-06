@@ -27,24 +27,90 @@ nav{
     height: 100%;
     display: flex;
     align-items: flex-end;
-    justify-content: flex-end;
+    justify-content: space-evenly;
+    flex-direction: row;
 
 }
 
 .imag1{
+    display: flex;
+    flex-direction: column;
+    color: white;
     font-size: 30px;
     font-family: 'Pacifico', cursive;
     text-align: justify;
+    margin-bottom: 200px;
 }
 
 .imag2{
 
+    display: flex;
+
 }
-p{
-    font-size: 
+.icones{
+    display: flex;
+    align-items: center;
 }
-    
-    
+.prim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 100%;
+}
+.prim:hover{
+background-color: #2dcc70;
+opacity: 0.9;
+transition: 2s
+}
+.segu{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 100%;
+}
+.segu:hover{
+    background-color: #2dcc70;
+    opacity: 0.9;
+    transition: 2s;
+}
+.ter{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 100%;
+}
+.ter:hover{
+    background-color: #2dcc70;
+    opacity: 0.9;
+    transition: 2s;
+}
+.subti{
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+
 header{
     grid-area: header;
     background-color: brown;
