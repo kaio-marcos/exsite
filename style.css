@@ -11,3 +11,7 @@
     grid-template-columns: repeat(21, 50px);
     grid-gap: 2px;
 }
+.divimgsection2{
+    display: flex;
+    background-color: green;
+}
