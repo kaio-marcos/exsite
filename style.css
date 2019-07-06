@@ -1,0 +1,73 @@
+body{
+    background-color: white;
+    
+    display: grid;
+    margin: 0;
+    
+    grid-template-areas: 'barra barra barra barra'
+                         'nav    nav    nav    nav'
+                         'header header header header'
+                         'sec    sec    sec    sec'
+                         'secao  secao  secao  secao'
+                         'footer footer footer footer';
+    grid-auto-rows: 1.5vh 90vh 20vh 20vh 20vh 20vh;
+    grid-auto-columns: 25% 25% 25% 25%;
+                         
+}
+
+.inutil{
+    grid-area: barra;
+    background-color: #2dcc70;
+}
+nav{
+    grid-area: nav;  
+    background-image: url(img/banner.png);
+    background-repeat: no-repeat;
+    width: 100% ;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+
+.imag1{
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    text-align: justify;
+}
+
+.imag2{
+
+}
+p{
+    font-size: 
+}
+    
+    
+header{
+    grid-area: header;
+    background-color: brown;
+    display: flex
+}
+
+.sec{
+    grid-area: sec;
+    background-color: yellow;
+    display: flex;
+    
+}
+
+.secao{
+    grid-area: secao;
+    background-color: orange;
+    display: flex;
+    
+}
+
+footer{
+    grid-area: footer;
+    background-color: red;
+    display: flex;
+    
+}
