@@ -20,3 +20,7 @@
     height: 50px;
     width: 50px;
 }
+
+.divimgsection2 img:hover{
+    opacity: 0.5;
+}
