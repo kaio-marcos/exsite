@@ -148,6 +148,16 @@ header{
 .divimgsection2 img:hover{
     opacity: 0.5;
 }
+
+.iconescontatos{
+    align-items: center;
+    background-color: #e4e4e4;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2vh;
+    width: 18vw;
+}
+
 footer{
     grid-area: footer;
     background-color: #E3E3E3;
