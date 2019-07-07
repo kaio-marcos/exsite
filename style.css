@@ -162,14 +162,22 @@ footer{
  
 }
 
-.lista{
-    text-decoration: none;
+.lista{ /* coloca a lista no centro e ao meio do footer*/
     display: flex;
     justify-content: space-around;
     flex-direction: row;
 }
 
-.lista li{
-    color: aquamarine;
+.lista li{ /*colcando espeçamento entre os itens*/
     margin-left: 50px;
+}
+a:link{ /* tirando sublinhado dos liks*/
+    font-family: arial;
+    font-size: 15px;
+    text-decoration:none;
+} 
+
+ul li a{
+    color:black;
+    opacity: 0.5;
 }
