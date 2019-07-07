@@ -152,4 +152,22 @@ footer{
     grid-area: footer;
     background-color: #E3E3E3;
     display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.rodape{
+    display: flex;
+ 
+}
+
+.lista{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.lista li{
+    margin-left: 50px;
 }
