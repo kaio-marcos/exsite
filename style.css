@@ -108,22 +108,6 @@ transition: 2s
     font-family: Arial;
 }
 
-
-    
-    
-header{
-    grid-area: header;
-    background-color: brown;
-    display: flex
-}
-
-.sec{
-    grid-area: sec;
-    background-color: yellow;
-    display: flex;
-    
-}
-
 .secao{
     align-items: center;
     display: flex;
@@ -292,32 +276,18 @@ h3{
     color: grey;
 
 
+
 }
-.esquerda{
-    align-items: flex-start;
-    display: inline-block;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 90px 100px;
-    width: 500px; 
-}
+
 .central{
-    align-items: center
+    align-items: center;
     display: inline-block;
     flex-direction: column;
     justify-content: flex;
     padding: 90px 100px;
-    width: 500px;
 }
-.direita{
-    align-items: flex-end;
-    display: inline-block;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding:100px;
-    width: 500px;
-}
- img{
+
+header img{
      height: 50px;
      width: 50px;
  }
