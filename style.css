@@ -163,11 +163,13 @@ footer{
 }
 
 .lista{
+    text-decoration: none;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
 }
 
 .lista li{
+    color: aquamarine;
     margin-left: 50px;
 }
