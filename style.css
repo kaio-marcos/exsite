@@ -151,11 +151,22 @@ header{
 
 .iconescontatos{
     align-items: center;
-    background-color: #e4e4e4;
+
     display: flex;
     justify-content: space-around;
     margin-bottom: 2vh;
     width: 18vw;
+}
+
+.iconescontatos img{
+    background-color: #d4d4d4;
+    border-radius: 50%;
+    height: 20px;
+    padding: 5px;
+    width: 20px;
+}
+.iconescontatos img:hover{
+    background-color: #2dcc70;
 }
 
 footer{
