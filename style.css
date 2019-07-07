@@ -1,18 +1,16 @@
 body{
-    background-color: white;
-    
+    font-family: 'Hind', sans-serif;
+    text-align: center;
     display: grid;
     margin: 0;
-    
     grid-template-areas: 'barra barra barra barra'
                          'nav    nav    nav    nav'
                          'header header header header'
                          'sec    sec    sec    sec'
                          'secao  secao  secao  secao'
                          'footer footer footer footer';
-    grid-auto-rows: 1.5vh 90vh 20vh 20vh 20vh 20vh;
-    grid-auto-columns: 25% 25% 25% 25%;
-                         
+    grid-auto-rows: 1.5vh 90vh 30vh 20vh 70vh 20vh;
+    grid-auto-columns: 25% 25% 25% 25%;           
 }
 
 .inutil{
@@ -111,6 +109,8 @@ transition: 2s
 }
 
 
+    
+    
 header{
     grid-area: header;
     background-color: brown;
@@ -125,15 +125,31 @@ header{
 }
 
 .secao{
-    grid-area: secao;
-    background-color: orange;
+    align-items: center;
     display: flex;
-    
+    flex-direction: column;
+    justify-content: center;
+    grid-area: secao;
+    text-align: center;
 }
-
+.gridimg{
+    display: grid;
+    grid-template-columns: repeat(21, 50px);
+    grid-gap: 2px;
+}
+.divimgsection2{
+    display: flex;
+    background-color: #2dcc70;
+}
+.divimgsection2 img{
+    height: 50px;
+    width: 50px;
+}
+.divimgsection2 img:hover{
+    opacity: 0.5;
+}
 footer{
     grid-area: footer;
     background-color: red;
     display: flex;
-    
 }
