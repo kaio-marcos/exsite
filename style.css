@@ -162,6 +162,8 @@ header{
 }
 .divimgsection2{
     display: flex;
+}
+.divimgsection2:hover{
     background-color: #2dcc70;
 }
 .divimgsection2 img{
