@@ -23,6 +23,12 @@ nav{
     justify-content: center;
     flex-direction: row;
 }
+h1{
+    font-weight: normal;
+}
+span{
+    color: #2dcc70;
+}
 nav h4{
     width: 30vw;
 }
