@@ -156,11 +156,11 @@ transition: 2s
 }
 .divimgsection2 img:hover{
     opacity: 0.5;
+    transition: 1s;
 }
 
 .iconescontatos{
     align-items: center;
-
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
@@ -176,6 +176,7 @@ transition: 2s
 }
 .iconescontatos img:hover{
     background-color: #2dcc70;
+    transition: 1s;
 }
 
 footer{
