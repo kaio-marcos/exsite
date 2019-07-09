@@ -3,16 +3,17 @@ body{
     text-align: center;
     display: grid;
     margin: 0;
-    grid-template-areas: 'barra barra barra barra'
+    grid-template-areas: 
                          'nav    nav    nav    nav'
                          'header header header header'
                          'sec    sec    sec    sec'
                          'secao  secao  secao  secao'
                          'footer footer footer footer';
-    grid-auto-rows: 1.5vh 90vh 30vh 50vh 50vh 20vh;
+    grid-auto-rows:  90vh 30vh 50vh 50vh 20vh;
     grid-auto-columns: 25% 25% 25% 25%; 
 
 }
+
 
 nav{
     align-items: flex-start;
@@ -22,7 +23,7 @@ nav{
     background-size: 100vw 100%;
     background: cover;
     background-repeat: no-repeat;
-    border-top: #2dcc70 5px solid;
+    border-top: #2dcc70 6px solid;
     display: flex;
     justify-content: center;
     flex-direction: row;
