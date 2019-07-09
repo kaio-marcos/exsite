@@ -9,7 +9,7 @@ body{
                          'sec    sec    sec    sec'
                          'secao  secao  secao  secao'
                          'footer footer footer footer';
-    grid-auto-rows:  90vh 60vh 50vh 50vh 20vh;
+    grid-auto-rows:  90vh 60vh 50vh 60vh 20vh;
     grid-auto-columns: 25% 25% 25% 25%; 
 
 }
