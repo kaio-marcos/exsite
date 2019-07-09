@@ -3,11 +3,15 @@ body{
     text-align: center;
     display: grid;
     margin: 0;
-    grid-template-areas: 'nav'
-                         'header'
-                         'sec'
-                         'secao'
-                         'footer';       
+    grid-template-areas: 'barra barra barra barra'
+                         'nav    nav    nav    nav'
+                         'header header header header'
+                         'sec    sec    sec    sec'
+                         'secao  secao  secao  secao'
+                         'footer footer footer footer';
+    grid-auto-rows: 1.5vh 90vh 30vh 50vh 50vh 20vh;
+    grid-auto-columns: 25% 25% 25% 25%; 
+
 }
 
 nav{
